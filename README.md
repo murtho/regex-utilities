@@ -1,2 +1,6 @@
 # regex-utilities
-Utilities for regex
+
+this package provides some utilities for regular expressions
+
+run the test suite:
+`./vendor/bin/phpunit tests`

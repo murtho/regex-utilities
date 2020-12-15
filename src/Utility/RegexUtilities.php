@@ -69,14 +69,14 @@ class RegexUtilities
      *
      * This pattern can be used to check if a string can be successfully casted into an integer
      */
-	const FORMAT_INTEGER = "/^[1-9]{1}\d*$/";
+	const FORMAT_INTEGER = "/^\-?[1-9]{1}\d*$/";
 	
     /**
      * Float format pattern
      *
      * This pattern can be used to check if a string can be successfully casted into a float
      */
-	const FORMAT_FLOAT = "/^[1-9]{1}\d*(\.\d+)?$/";
+	const FORMAT_FLOAT = "/^\-?((0\.\d+)|([1-9]{1}\d*)(\.\d+)?)$/";
 
     /**
      * Matches Pattern
